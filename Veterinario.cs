@@ -6,11 +6,11 @@ namespace ClinicaVeterinaria
 {
     public class Veterinario : Pessoa
     {
-        public string? nomeVeterinario;
-        public string? telefoneVeterinario;
-        public string? emailVeterinario;
-        public string? crmvVeterinario;
-        public string? especialidadeVeterinario;
+        public string? nomeVeterinario { get; set; }
+        public string? telefoneVeterinario { get; set; }
+        public string? emailVeterinario { get; set; }
+        public string? crmvVeterinario { get; set; }
+        public string? especialidadeVeterinario { get; set; }
        
         public Veterinario(string ctNome, string ctTelefone, string ctEmail, string ctCrmv, string ctEspecialidade) : base(ctNome, ctTelefone, ctEmail)
         {                                                                                                  /* ": base()"é uma forma de fazer ele aceitar essas informações do parametro
